@@ -97,7 +97,6 @@ async def main():
         await delay_time(delay)
         
     message += f'所有{serviceName}账号登录完成！'
-    await send_telegram_message(message)
     print(f'所有{serviceName}账号登录完成！')
 if __name__ == '__main__':
    asyncio.run(main())
